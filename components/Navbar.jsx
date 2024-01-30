@@ -9,13 +9,17 @@ const Navbar = ({ showMenu, setShowMenu }) => {
   let transition = { duration: 0.3, height: { delay: 0.3, duration: 0.6 } };
   const displayMenu = () => {
     const menuIcon = document.getElementById('menuIcon');
-    menuIcon.classList.add('menuIconBlacken');
+    if (!menuIcon.classList.contains('menuIconBlacken')) {
+      menuIcon.classList.remove('menuIconBlacken');
+    }
 
     setShowMenu(true);
   };
   const removeMenu = () => {
     const menuIcon = document.getElementById('menuIcon');
-    menuIcon.classList.remove('menuIconBlacken');
+    if (menuIcon.classList.contains('menuIconBlacken')) {
+      menuIcon.classList.remove('menuIconBlacken');
+    }
 
     transition = { height: { duration: 0.6 }, borderRadius: { delay: 0.6, duration: 0.6 }, width: { delay: 0.6, duration: 0.6 } };
     setShowMenu(false);
