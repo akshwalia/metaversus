@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
 
 const GetStarted = () => (
-  <section className={`px-16 md:px-32 flex flex-col lg:flex-row items-center justify-between gap-10 mt-[100px] lg:mt-[200px]`}>
+  <section className={`px-16 md:px-32 flex flex-col lg:flex-row items-center justify-between gap-10 mt-[150px] lg:mt-[200px]`}>
     <motion.img src="/get-started.png" alt="Planet" className="flex-1 w-[400px]" 
     initial={{x: '-100%', rotate:250}}
     whileInView={{x:0, rotate: 0}}
