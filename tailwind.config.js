@@ -17,6 +17,11 @@ module.exports = {
         'out-flex': 'cubic-bezier(0.05, 0.6, 0.4, 0.9)',
       },
     },
+    screens: {
+      'sm': '640px',
+      'md': '840px',
+      'lg': '1100px'
+    }
   },
   plugins: [],
 };

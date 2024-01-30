@@ -2,9 +2,9 @@
 import { motion } from "framer-motion";
 import { textContainer, textVariant2 } from "../utils/motion";
 
-export const TypingText = ({ text }) => (
+export const TypingText = ({ text, align }) => (
   <>
-    <div className="text-center text-[14px] text-secondary-white">
+    <div className={`${align} text-[14px] text-secondary-white`}>
       {Array.from(text).map((letter, index) => (
         <motion.span key={index}
           initial={{ opacity: 0 }}

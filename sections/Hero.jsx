@@ -13,12 +13,12 @@ const Hero = () => {
           variants={textVariant(1.1)}
           initial='hidden'
           whileInView='show'
-          viewport={{ once: true }}>METAVERSE</motion.div>
+          >METAVERSE</motion.div>
         <motion.div className="flex items-center"
           variants={textVariant(1.3)}
           initial='hidden'
           whileInView='show'
-          viewport={{ once: true }}>
+          >
           <div>MA</div>
           <div className={`${styles.heroDText}`}></div>
           <div>NESS</div>
@@ -31,7 +31,7 @@ const Hero = () => {
           variants={slideIn('right', 'tween', 0.7, 0.7)}
           initial='hidden'
           whileInView='show'
-          viewport={{ once: true }}>
+          >
           <img src="/cover.png" alt="Cover Image"
             className="sm:h-[500px] h-[350px] w-[100vw] object-cover rounded-tl-[140px] rounded-b-[42px] relative -top-[50px] -right-24"
           />

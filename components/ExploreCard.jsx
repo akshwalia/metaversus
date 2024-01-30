@@ -19,12 +19,12 @@ export default function ExploreCard({ img, id, title, active, setActive, index }
         <h3 className="font-semibold sm:text-[26px] text-[18px] absolute bottom-3 lg:bottom-20 text-white lg:-rotate-90">
           {title}
         </h3> :
-        <div className="absolute w-full h-[55%] lg:h-[36%] bg-[rgba(0,0,0,0.5)] bottom-0 rounded-b-[24px] z-30 p-4 lg:p-8 flex flex-col justify-center">
+        <div className="absolute w-full h-[55%] sm:h-[40%] lg:h-[36%] bg-[rgba(0,0,0,0.5)] bottom-0 rounded-b-[24px] z-30 p-4 md:p-8 flex flex-col justify-center">
           <div className="w-[30px] h-[30px] lg:w-[50px] lg:h-[50px] rounded-[24px] glassmorphism flex items-center justify-center mb-4">
             <img src="/headset.svg" alt="headset" className="w-1/2 h-1/2 object-contain" />
           </div>
-          <p className="text-white lg:text-[16px] text-[10px]">ENTER THE METAVERSE</p>
-          <h3 className="font-semibold sm:text-[32px] text-[24px] text-white">
+          <p className="text-white md:text-[16px] text-[10px]">ENTER THE METAVERSE</p>
+          <h3 className="font-semibold md:text-[32px] text-[24px] text-white">
             {title}
           </h3>
         </div>

@@ -21,6 +21,7 @@ const Page = () => {
   //   }
   // },[]);
 
+  const [showMenu, setShowMenu] = useState(false);
 
   return (
     <div className='bg-primary-black overflow-hidden'>
@@ -28,7 +29,7 @@ const Page = () => {
       {/* <div className="cursor w-[20px] h-[20px] bg-white rounded-full z-20" 
       style={{position: 'absolute', left: mousePosition.x-10, top: mousePosition.y-10}}
        /> */}
-      <Navbar />
+      <Navbar showMenu={showMenu} setShowMenu={setShowMenu} />
       <Hero />
       <div className="relative">
         <About />

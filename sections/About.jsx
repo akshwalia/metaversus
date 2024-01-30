@@ -11,7 +11,7 @@ const About = () => (
 
     <div className={`${styles.innerWidth} mx-auto flex flex-col items-center`}>
 
-      <TypingText text="| About Metaverse" />
+      <TypingText text="| About Metaverse" align={'text-center'}/>
 
       <motion.p className="text-white text-center text-[20px] lg:text-[32px] px-8 sm:px-20 mt-2"
       variants={fadeIn('up','tween',0.2,1)}
