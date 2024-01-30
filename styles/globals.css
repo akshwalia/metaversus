@@ -105,3 +105,8 @@
   background: #65c4fa;
   filter: blur(150px);
 }
+
+.menuIconBlacken {
+  filter: invert(1);
+  transition: filter 0.4s ease-in-out;
+}
