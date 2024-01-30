@@ -1,9 +1,8 @@
 'use client';
 
 import { motion } from "framer-motion";
-import { slideIn, staggerContainer, textVariant } from "../utils/motion";
+import { slideIn, textVariant } from "../utils/motion";
 import styles from "../styles";
-import { useState, useEffect } from "react";
 
 const Hero = () => {
   return (
@@ -25,7 +24,6 @@ const Hero = () => {
         </motion.div>
       </h1>
 
-
       <div className="relative">
         <motion.div className="w-screen sm:h-[500px] h-[350px] object-cover "
           variants={slideIn('right', 'tween', 0.7, 0.7)}
@@ -46,7 +44,6 @@ const Hero = () => {
           <img src="/stamp.png" alt="Stamp" className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain" />
         </motion.a>
       </div>
-
 
       {/* <motion.div className="flex flex-col gap-7 absolute top-0 right-20"
     initial={{opacity: 0, x:}}>

@@ -1,7 +1,6 @@
 'use client';
 
 import { StartSteps, TypingText } from "../components";
-import styles from "../styles";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
 
@@ -21,10 +20,7 @@ const GetStarted = () => (
       <StartSteps number='01' text="Find a world that suits you and you want to enter" />
       <StartSteps number='02' text="Enter the world by reading basmalah to be safe" />
       <StartSteps number='03' text="No need to beat around the bush, just stay on the gas and have fun" />
-    </motion.div>
-
-
-    
+    </motion.div> 
   </section>
 );
 

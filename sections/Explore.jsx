@@ -1,11 +1,10 @@
 'use client';
 
+import { useState } from "react";
 import { TypingText } from "../components";
 import styles from "../styles";
-import { motion } from "framer-motion";
 import { ExploreCard } from "../components";
 import { exploreWorlds } from "../constants";
-import { useState } from "react";
 
 const Explore = () => {
   const [active, setActive] = useState('world-2');

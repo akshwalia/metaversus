@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { navVariants } from "../utils/motion";
 import styles from "../styles";
 import { AnimatePresence } from "framer-motion";
-import { useState } from "react";
 
 const Navbar = ({ showMenu, setShowMenu }) => {
 

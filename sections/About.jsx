@@ -25,10 +25,7 @@ const About = () => (
       whileInView={{y: 0, opacity: 1}}
       transition={{duration: 1, delay: 0.5}}/>
 
-    </div>
-
-    
-    
+    </div> 
   </section>
 );
 

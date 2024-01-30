@@ -1,6 +1,6 @@
 'use client';
 
-import { NewFeatures, StartSteps, TypingText } from "../components";
+import { NewFeatures,TypingText } from "../components";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
 
@@ -10,8 +10,6 @@ const WhatsNew = () => (
       initial={{ x: '100%', rotate: 250 }}
       whileInView={{ x: 0, rotate: 0 }}
       transition={{ duration: 1.5, delay: 0.2, type: 'spring' }} />
-
-
     <motion.div className="flex flex-col flex-1"
       variants={fadeIn('right', 'tween', 0.3, 0.8)}
       initial='hidden'
