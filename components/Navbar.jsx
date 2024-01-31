@@ -41,6 +41,7 @@ const Navbar = ({ showMenu, setShowMenu }) => {
       initial='hidden'
       whileInView='show'
       className={`${styles.xPaddings} py-8 relative flex justify-center`}
+      viewport={{ once: true }}
     >
       <motion.div className='gradient-01 inset-0 absolute w-1/2'
         animate={{ translateX: [0, 500, 0], scale: [1, 1.4, 1.1, 2, 1.7, 1] }}
